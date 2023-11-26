@@ -1,9 +1,16 @@
 package com.Practice.SnakeAndLadder;
 
 public class SnakeAndLadder {
+    static int playerPosition = 0;
+    static int playerPosition2 = 0;
+
+    private static int diceRole() {
+        return (int) (Math.random() * 6) + 1;
+    }
+
     public static void main(String[] args) {
-        System.out.println("Welcome to Snake and ladder..");
-        final int START_POSITION=0;
-        int player=0;
+      int diceCount=0;
+      int playerChance=0;
+
     }
 }
